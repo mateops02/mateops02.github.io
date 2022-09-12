@@ -2,4 +2,29 @@ body {
      background-color: aquamarine
     ;}
 
+.menu {   
+    background-color: azure;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+
+.menu li {
+    float: left;
+}
+
+li a {
+    border: 1px solid black;
+    padding: 15px;
+    color: blueviolet;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+
+    ;}
+
+a:hover {
+    background-color: chartreuse;
     
+}
+
